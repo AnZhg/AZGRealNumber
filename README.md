@@ -3,7 +3,7 @@ A big number library written in mixed C and Objective-C
 
 It can handle upto 28 digits.
 
-Supoorted calculations:
+Supported calculations:
 
 Basic operations (add, subtract, multiply, divide)<br>Exponentiation<br>Root<br>Factorial
 
