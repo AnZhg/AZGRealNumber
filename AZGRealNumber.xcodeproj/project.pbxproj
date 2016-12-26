@@ -27,8 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		26121AF31E1109F7007BAFAB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		26121AF41E1109F7007BAFAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		26336B371E110AFC0026B162 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		26336B381E110AFC0026B162 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		26E22DFE1E10FE0300E86A97 /* AZGRealNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AZGRealNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E22E011E10FE0300E86A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		26E22E041E10FE0300E86A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,8 +53,8 @@
 		26E22DF51E10FE0300E86A97 = {
 			isa = PBXGroup;
 			children = (
-				26121AF31E1109F7007BAFAB /* LICENSE */,
-				26121AF41E1109F7007BAFAB /* README.md */,
+				26336B371E110AFC0026B162 /* LICENSE */,
+				26336B381E110AFC0026B162 /* README.md */,
 				26E22E031E10FE0300E86A97 /* AZGRealNumber */,
 				26E22E001E10FE0300E86A97 /* Frameworks */,
 				26E22DFF1E10FE0300E86A97 /* Products */,
