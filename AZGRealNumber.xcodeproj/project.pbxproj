@@ -27,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26121AF31E1109F7007BAFAB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		26121AF41E1109F7007BAFAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		26E22DFE1E10FE0300E86A97 /* AZGRealNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AZGRealNumber; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E22E011E10FE0300E86A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		26E22E041E10FE0300E86A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,8 +36,6 @@
 		26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AZGRealNumber.1; sourceTree = "<group>"; };
 		26E22E0F1E10FE2700E86A97 /* AZGRealNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZGRealNumber.h; sourceTree = "<group>"; };
 		26E22E101E10FE2700E86A97 /* AZGRealNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZGRealNumber.m; sourceTree = "<group>"; };
-		26E22E121E1107B000E86A97 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		26E22E131E1107B000E86A97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +53,8 @@
 		26E22DF51E10FE0300E86A97 = {
 			isa = PBXGroup;
 			children = (
+				26121AF31E1109F7007BAFAB /* LICENSE */,
+				26121AF41E1109F7007BAFAB /* README.md */,
 				26E22E031E10FE0300E86A97 /* AZGRealNumber */,
 				26E22E001E10FE0300E86A97 /* Frameworks */,
 				26E22DFF1E10FE0300E86A97 /* Products */,
@@ -82,8 +84,6 @@
 				26E22E0F1E10FE2700E86A97 /* AZGRealNumber.h */,
 				26E22E101E10FE2700E86A97 /* AZGRealNumber.m */,
 				26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */,
-				26E22E121E1107B000E86A97 /* LICENSE */,
-				26E22E131E1107B000E86A97 /* README.md */,
 				26E22E061E10FE0300E86A97 /* Supporting Files */,
 			);
 			path = AZGRealNumber;
