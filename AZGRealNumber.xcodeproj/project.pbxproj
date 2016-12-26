@@ -10,6 +10,7 @@
 		26E22E021E10FE0300E86A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E22E011E10FE0300E86A97 /* Foundation.framework */; };
 		26E22E051E10FE0300E86A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E22E041E10FE0300E86A97 /* main.m */; };
 		26E22E091E10FE0300E86A97 /* AZGRealNumber.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */; };
+		26E22E111E10FE2700E86A97 /* AZGRealNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E22E101E10FE2700E86A97 /* AZGRealNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,10 @@
 		26E22E041E10FE0300E86A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26E22E071E10FE0300E86A97 /* AZGRealNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZGRealNumber-Prefix.pch"; sourceTree = "<group>"; };
 		26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AZGRealNumber.1; sourceTree = "<group>"; };
+		26E22E0F1E10FE2700E86A97 /* AZGRealNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZGRealNumber.h; sourceTree = "<group>"; };
+		26E22E101E10FE2700E86A97 /* AZGRealNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZGRealNumber.m; sourceTree = "<group>"; };
+		26E22E121E1107B000E86A97 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		26E22E131E1107B000E86A97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +79,11 @@
 			isa = PBXGroup;
 			children = (
 				26E22E041E10FE0300E86A97 /* main.m */,
+				26E22E0F1E10FE2700E86A97 /* AZGRealNumber.h */,
+				26E22E101E10FE2700E86A97 /* AZGRealNumber.m */,
 				26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */,
+				26E22E121E1107B000E86A97 /* LICENSE */,
+				26E22E131E1107B000E86A97 /* README.md */,
 				26E22E061E10FE0300E86A97 /* Supporting Files */,
 			);
 			path = AZGRealNumber;
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E22E051E10FE0300E86A97 /* main.m in Sources */,
+				26E22E111E10FE2700E86A97 /* AZGRealNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +252,7 @@
 				26E22E0E1E10FE0300E86A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
