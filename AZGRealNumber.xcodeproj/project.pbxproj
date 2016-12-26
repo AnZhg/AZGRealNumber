@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E22E021E10FE0300E86A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E22E011E10FE0300E86A97 /* Foundation.framework */; };
+		26E22E051E10FE0300E86A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E22E041E10FE0300E86A97 /* main.m */; };
+		26E22E091E10FE0300E86A97 /* AZGRealNumber.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26E22DFC1E10FE0300E86A97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				26E22E091E10FE0300E86A97 /* AZGRealNumber.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26E22DFE1E10FE0300E86A97 /* AZGRealNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AZGRealNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E22E011E10FE0300E86A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26E22E041E10FE0300E86A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26E22E071E10FE0300E86A97 /* AZGRealNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZGRealNumber-Prefix.pch"; sourceTree = "<group>"; };
+		26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AZGRealNumber.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E22DFB1E10FE0300E86A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E22E021E10FE0300E86A97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E22DF51E10FE0300E86A97 = {
+			isa = PBXGroup;
+			children = (
+				26E22E031E10FE0300E86A97 /* AZGRealNumber */,
+				26E22E001E10FE0300E86A97 /* Frameworks */,
+				26E22DFF1E10FE0300E86A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26E22DFF1E10FE0300E86A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E22DFE1E10FE0300E86A97 /* AZGRealNumber */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E22E001E10FE0300E86A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E22E011E10FE0300E86A97 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26E22E031E10FE0300E86A97 /* AZGRealNumber */ = {
+			isa = PBXGroup;
+			children = (
+				26E22E041E10FE0300E86A97 /* main.m */,
+				26E22E081E10FE0300E86A97 /* AZGRealNumber.1 */,
+				26E22E061E10FE0300E86A97 /* Supporting Files */,
+			);
+			path = AZGRealNumber;
+			sourceTree = "<group>";
+		};
+		26E22E061E10FE0300E86A97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26E22E071E10FE0300E86A97 /* AZGRealNumber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E22DFD1E10FE0300E86A97 /* AZGRealNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E22E0C1E10FE0300E86A97 /* Build configuration list for PBXNativeTarget "AZGRealNumber" */;
+			buildPhases = (
+				26E22DFA1E10FE0300E86A97 /* Sources */,
+				26E22DFB1E10FE0300E86A97 /* Frameworks */,
+				26E22DFC1E10FE0300E86A97 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZGRealNumber;
+			productName = AZGRealNumber;
+			productReference = 26E22DFE1E10FE0300E86A97 /* AZGRealNumber */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E22DF61E10FE0300E86A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "安志钢";
+			};
+			buildConfigurationList = 26E22DF91E10FE0300E86A97 /* Build configuration list for PBXProject "AZGRealNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26E22DF51E10FE0300E86A97;
+			productRefGroup = 26E22DFF1E10FE0300E86A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E22DFD1E10FE0300E86A97 /* AZGRealNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E22DFA1E10FE0300E86A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E22E051E10FE0300E86A97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26E22E0A1E10FE0300E86A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26E22E0B1E10FE0300E86A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26E22E0D1E10FE0300E86A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZGRealNumber/AZGRealNumber-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26E22E0E1E10FE0300E86A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZGRealNumber/AZGRealNumber-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E22DF91E10FE0300E86A97 /* Build configuration list for PBXProject "AZGRealNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E22E0A1E10FE0300E86A97 /* Debug */,
+				26E22E0B1E10FE0300E86A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E22E0C1E10FE0300E86A97 /* Build configuration list for PBXNativeTarget "AZGRealNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E22E0D1E10FE0300E86A97 /* Debug */,
+				26E22E0E1E10FE0300E86A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26E22DF61E10FE0300E86A97 /* Project object */;
+}
